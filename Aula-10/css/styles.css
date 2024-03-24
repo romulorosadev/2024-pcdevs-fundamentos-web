@@ -1,20 +1,20 @@
 @import 'reset.css';
 
-/*SELETOR GENÉRICO DE TAGS*/
-/*Usado para customizar todas as tags h1*/
+/* CUSTOMIZAÇÃO COM SELETOR DE TAGS / GENÉRICO*/
+/*Usado para customizar todas as tags declaradas*/
 h1{
   color: red;
 }
 
-/*SELETOR EXCLUSIVO*/
-/*Usado para customizar apenas a tag que possui como atributo o id="nomeDoId" */
+/* CUSTOMIZAÇÃO COM SELETOR DE ID / SINGULAR / EXCLUSIVO */
+/* Usado para customizar apenas a tag que possui como atributo o id="nomeDoId" */
 /*Um id deve ser único/exclusivo, não sendo atribuido a outras tags/elementos*/
 /* Símbolo em CSS: # */
 #titulo1{
   color: green;
 }
 
-/*SELETOR DE CLASSE*/
+/* CUSTOMIZAÇÃO COM SELETOR DE CLASSE / REPLICÁVEL */
 /*Usado para customizar uma ou mais tags que possuem como atributo class="nomeDaClass"*/
 /* Símbolo em CSS: . */
 .titulos{
