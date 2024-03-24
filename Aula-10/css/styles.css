@@ -13,3 +13,10 @@ h1{
 #titulo1{
   color: green;
 }
+
+/*SELETOR DE CLASSE*/
+/*Usado para customizar uma ou mais tags que possuem como atributo class="nomeDaClass"*/
+/* Símbolo em CSS: . */
+.titulos{
+  color: blue;
+}
