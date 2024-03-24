@@ -1,6 +1,7 @@
 @import 'reset.css';
 
-body{
-  background: #000;
-  color: #FFF
+/*SELETOR GENÉRICO DE TAGS*/
+/*Usado para customizar todas as tags h1*/
+h1{
+  color: red;
 }
