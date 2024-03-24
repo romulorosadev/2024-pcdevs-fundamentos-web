@@ -5,3 +5,11 @@
 h1{
   color: red;
 }
+
+/*SELETOR EXCLUSIVO*/
+/*Usado para customizar apenas a tag que possui como atributo o id="nomeDoId" */
+/*Um id deve ser único/exclusivo, não sendo atribuido a outras tags/elementos*/
+/* Símbolo em CSS: # */
+#titulo1{
+  color: green;
+}
