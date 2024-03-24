@@ -1,0 +1,28 @@
+@import "reset.css";
+
+body{
+  padding: 1rem;
+}
+
+h1{
+  color: red;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+section{
+  margin-bottom: 1.5rem;
+}
+
+h3{
+  color: green;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+}
+
+p{
+  color: black;
+  font-size: 1.2rem;
+}
