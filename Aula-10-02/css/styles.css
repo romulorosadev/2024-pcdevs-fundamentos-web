@@ -1,42 +1,5 @@
 @import 'reset.css';
 
-form{
-  align-items: left;
-  background-color: #ccc;
-  display: flex;
-  flex-flow: column;
-  gap: 1.5rem;
-  justify-content: center;
-  max-width: 30rem;
-  padding: 2rem;
-}
-
-h1{
-  font-size: 1.4rem;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-div{
-  display: flex;
-  flex-flow: column wrap;
-  gap: .25rem;
-}
-
-label{
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-input{
-  border: .1rem solid #aaa;
-  border-radius: .25rem;
-  font-size: 1.2rem;
-  padding: .5rem;
-}
-
-
 button{
   background-color: goldenrod;
   border: none;
@@ -56,9 +19,49 @@ button:hover{
   color: goldenrod;
 }
 
-#nomeParagrafo{
+div{
+  display: flex;
+  flex-flow: column wrap;
+  gap: .25rem;
+}
+
+form{
+  align-items: left;
+  background-color: #ccc;
+  display: flex;
+  flex-flow: column;
+  gap: 1.5rem;
+  justify-content: center;
+  max-width: 30rem;
+  padding: 2rem;
+}
+
+h1{
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+input{
+  border: .1rem solid #aaa;
+  border-radius: .25rem;
+  font-size: 1.2rem;
+  padding: .5rem;
+}
+
+label{
   font-size: 1.2rem;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+#nomeParagrafo,
+#sobrenomeParagrafo{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#nomeParagrafo{
   border-top: .1rem solid #000;
   padding-top: 1rem;
 }
