@@ -1,6 +1,64 @@
 @import 'reset.css';
 
-body{
+form{
+  align-items: left;
+  background-color: #ccc;
+  display: flex;
+  flex-flow: column;
+  gap: 1.5rem;
+  justify-content: center;
+  max-width: 30rem;
+  padding: 2rem;
+}
+
+h1{
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div{
+  display: flex;
+  flex-flow: column wrap;
+  gap: .25rem;
+}
+
+label{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+input{
+  border: .1rem solid #aaa;
+  border-radius: .25rem;
+  font-size: 1.2rem;
+  padding: .5rem;
+}
+
+
+button{
+  background-color: goldenrod;
+  border: none;
+  border-radius: .25rem;
+  color: #000;
+  cursor: pointer;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  max-width: 8rem;
+  text-transform: uppercase;
+  transition: background-color 1s, color .5s;
+}
+
+button:hover{
   background-color: #000;
-  color: #FFF;
+  color: goldenrod;
+}
+
+#nomeParagrafo{
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-top: .1rem solid #000;
+  padding-top: 1rem;
 }
