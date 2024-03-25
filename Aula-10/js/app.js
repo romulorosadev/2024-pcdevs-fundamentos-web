@@ -11,4 +11,10 @@ var in_nome = prompt("Digite nome:")
 // =: Sinal de atribuicao. O codigo/operacao que estiver a direita do sinal de atribuição é armazenado na variavel/elemento declarado a sua esquerda
 // document: dom/documento/pagina
 //.getElementById: Metodo JavaScript para capturar no dom um elemento com um atribuito id será passado por parametro (entre parenteses)
-var elem_title = document.getElementById('titulo')
+var elem_title = document.getElementById('titulo1')
+
+// elem_title: Chamar a variavel que captura o elemento
+// .innerHTML: Inserir html no elemento
+// +=: vai inserir o texto após aquele que já estiver lá
+// `${in_nome}`: a crase simboliza um template string, uma forma de interpolação. Forma de chamar a variavel ${nomeDaVariavel}
+elem_title.innerHTML += `${in_nome}`;
