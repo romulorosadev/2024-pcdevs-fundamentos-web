@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <form>
+  <form id="form">
     <h1>Formulário</h1>
 
     <div>
@@ -21,8 +21,9 @@
       <input type="text" id="sobrenomeInput" placeholder="Digite seu sobrenome" />
     </div>
 
-    <div>
-      <button onclick="exibirNomes()" type="button">Enviar</button>
+    <div class="buttons__wrapper">
+      <button class="buttons__button buttons__button-send" onclick="exibirNomes()" type="button">Enviar</button>
+      <button class="buttons__button buttons__button-clean" onclick="limparNomes()" type="button">Limpar</button>
     </div>
 
     <div>
