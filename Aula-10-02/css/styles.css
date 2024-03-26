@@ -1,24 +1,5 @@
 @import 'reset.css';
 
-button{
-  background-color: goldenrod;
-  border: none;
-  border-radius: .25rem;
-  color: #000;
-  cursor: pointer;
-  padding: .5rem 1rem;
-  font-size: 1rem;
-  font-weight: 700;
-  max-width: 8rem;
-  text-transform: uppercase;
-  transition: background-color 1s, color .5s;
-}
-
-button:hover{
-  background-color: #000;
-  color: goldenrod;
-}
-
 div{
   display: flex;
   flex-flow: column wrap;
@@ -62,6 +43,49 @@ label{
 }
 
 #nomeParagrafo{
-  border-top: .1rem solid #000;
+  border-top: .1rem solid #bbb;
   padding-top: 1rem;
+}
+
+.buttons__wrapper{
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.buttons__button{
+  border: none;
+  border-radius: .25rem;
+  cursor: pointer;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  max-width: 8rem;
+  text-transform: uppercase;
+}
+
+.buttons__button-clean,
+.buttons__button-send{
+  color: #000;
+  transition: background-color 1s, color .5s;
+}
+
+.buttons__button-clean{
+  background-color: #FFF;
+}
+
+.buttons__button-send{
+  background-color: #DAA520;
+}
+
+.buttons__button-clean:hover,
+.buttons__button-send:hover{
+  color: #FFF;
+}
+
+.buttons__button-clean:hover{
+  background-color: #4b7bfd;
+}
+
+.buttons__button-send:hover{
+  background-color: #002E04;
 }
