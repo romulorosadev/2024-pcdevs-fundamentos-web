@@ -15,7 +15,27 @@
 
 
 //4) Solicitando dado ao usuário
+
+//ARMAZENANDO O DADO PARA SER MANIPULADO
+// Criar variavel para armazenar e manipular dado
+// const: tipo da variavel
+// in_idade: nome da variavel
+// parseInt(): Nativamente o prompt retorna um dado no formato string. O parseInt converte o dado para Number (Integer)
+// prompt(): Método JavaScript que exibe no browser uma caixa de interação com o usuário
 const in_idade = parseInt(prompt('Informe sua idade'));
+
+
+//TESTE CONDICIONAL
+//se(condição for verdadeira){
+  //Executar Bloco de código
+//} senão {
+  //Executar Bloco de código
+//}
+
+// Se a idade for maior ou igual a 18
+// Vai inserir um HTML com a mensagem dentro do body
+// Senão
+// Vai inserir um HTML com uma outra mensagem dentro do body
 
 if (in_idade => 18){
   document.body.innerHTML = `<p>IDADE: ${in_idade}</p>
