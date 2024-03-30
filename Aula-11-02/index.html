@@ -9,28 +9,28 @@
 </head>
 
 <body>
-  <form>
+  <form id="alistamentoMilitar">
     <fieldset>
       <legend>Alistamento Militar</legend>
       <div class="idade__wrapper">
-        <label class="form__label idade__label">Idade</label>
-        <input onclick=="form__input idade__input" type="text" id="elem-input-idade" placeholder="Digite sua idade">
+        <label class="form__label idade__label" for="in_idade">Idade:</label>
+        <input class="form__input idade__input" id="in_idade" name="in_idade" placeholder="Digite sua idade" type="text">
       </div>
 
       <div class="altura__wrapper">
-        <label class="form__label altura__label">Altura</label>
-        <input class="form__input altura__input" type="text" id="elem-input-altura" placeholder="Digite sua altura">
+        <label class="form__label altura__label" for="in_altura">Altura:</label>
+        <input class="form__input altura__input" id="in_altura" name="in_altura" placeholder="Digite sua altura" type="text">
       </div>
 
       <div class="buttons__wrapper">
-        <button class>Enviar</button>
-        <button class>Limpar</button>
+        <button class="buttons__button buttons__enviar" type="button">Enviar</button>
+        <button class="buttons__button buttons__limpar" type="button">Limpar</button>
       </div>
 
       <div class="status__wrapper">
-        <p class="status_idade"></p>
-        <p class="status_altura"></p>
-        <p class="status_final"></p>
+        <p class="status__idade"></p>
+        <p class="status__altura"></p>
+        <p class="status__mensagem"></p>
       </div>
     </fieldset>
 
