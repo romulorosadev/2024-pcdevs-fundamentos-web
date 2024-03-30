@@ -16,3 +16,15 @@ const verificarAltura = (in_altura) => {
   console.log(`ALTURA: ${out_altura}`);
   return out_altura;
 }
+
+const verificarStatus = () => {
+  verificarIdade();
+  verificarAltura();
+  const out_status = 'Aprovado';
+
+  const condStatus = (verificarIdade === 'Apto' && verificarAltura === 'Apto')
+
+  if(!condRequistos){
+    out_status = 'Reprovado';
+  }
+}
